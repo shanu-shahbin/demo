@@ -1,0 +1,7 @@
+<h1>dashboard<h1>
+
+{% if user.is_authenticated %}
+    <h1>Dashboard</h1>
+    <p>Welcome, {{ user.username }}!</p>
+    <a href="{% url 'account_logout' %}">Logout</a>
+{% endif %}
