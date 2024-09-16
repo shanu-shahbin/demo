@@ -2,3 +2,4 @@ django
 djangorestframework
 mysqlclient
 django-cors-headers
+django-allauth
